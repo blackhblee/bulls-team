@@ -1,4 +1,6 @@
 import random
+import ckend
+import play
 
 def bullsAndCows():
     value = ''
@@ -17,3 +19,4 @@ def bullsAndCows():
         bullsAndCows()
         return
 
+bullsAndCows()
