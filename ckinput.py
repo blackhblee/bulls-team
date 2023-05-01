@@ -9,5 +9,5 @@ def ckinput():
         if not len(set(exValue)) == 4:
             print("중복된 숫자가 있습니다. 다시 입력해주세요.")
             continue
-            
-    return exValue
+        
+        return exValue
