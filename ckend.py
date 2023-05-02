@@ -1,10 +1,10 @@
 def ckend():
     while True:
-        ckg = input('게임종료(0), 시작(1): ')
+        ckg = input('Quit game(0), Start game(1): ')
         if ckg == '0':
             break
         elif ckg == '1':
             break
         else:
-            print('잘못된 형식입니다.')
+            print('Wrong type.')
     return ckg

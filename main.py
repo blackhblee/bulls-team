@@ -10,12 +10,12 @@ def bullsAndCows():
         ck = str(random.randint(0, 9))
         if ck not in value:
             value+=ck
-    play()
+    play.play()
     ckg = ckend()
     if ckg == '0':
-        print('게임을 종료합니다.')
+        print('Quit game.')
     elif ckg == '1':
-        print('게임을 시작합니다.')
+        print('Restart game.')
         bullsAndCows()
         return
 
