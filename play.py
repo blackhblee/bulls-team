@@ -1,4 +1,4 @@
-import ckinput()
+import ckinput
 
 def play():
     turn = 1
