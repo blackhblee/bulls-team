@@ -1,6 +1,6 @@
 import ckinput
 
-def play():
+def play(value):
     turn = 1
     while True:
         if turn == 11:
