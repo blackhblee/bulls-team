@@ -1,15 +1,15 @@
-import ckinput
+import ckinput()
 
 def play():
     turn = 1
     while True:
         if turn == 11:
-            print('Exceeding the number of inputs. Game Over','Answer: ',value)
+            print('입력횟수가 초과됐습니다. Game Over','정답: ',value)
             break
 
-        exValue=ckinput.ckinput()
+        exValue=ckinput()
         if value == exValue:
-            print(exValue, 'Correct.', 'Turn:', turn)
+            print(exValue, '정답입니다.', '턴수:', turn)
             break
 
         b = 0
@@ -19,5 +19,5 @@ def play():
                 b+=1
             elif exValue[s] in value:
                 c+=1
-        print('Judge:{}B{}C  Turn:{}\n'.format(b,c,turn))
+        print('판정:{}B{}C  턴수:{}\n'.format(b,c,turn))
         turn+=1
