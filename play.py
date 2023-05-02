@@ -7,7 +7,7 @@ def play():
             print('입력횟수가 초과됐습니다. Game Over','정답: ',value)
             break
 
-        exValue=ckinput()
+        exValue=ckinput.ckinput()
         if value == exValue:
             print(exValue, '정답입니다.', '턴수:', turn)
             break
